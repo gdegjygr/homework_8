@@ -1,0 +1,33 @@
+.Content-background {
+    display: flex;
+    width: 100%;
+    max-height: 454px;
+    background-color: #1B2736;
+    box-shadow: 0px -150px 10px -16px #1C2734 inset;
+    margin-bottom: 70px;
+}
+
+.background--image{
+    margin: 0 auto;
+    mix-blend-mode: luminosity;
+    background: radial-gradient(27.98% 27.58% at 50.62% 7.87%, #2C4B5F 0%, #1B2838 150%), #1B2736;
+    box-shadow: 0px 10px 111px 81px #1C2734 inset;
+}
+
+/* Main info */
+.main--info {
+    display: flex;
+    width: 706px;
+    height: 386px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.20) 64.06%);
+    margin-top: 116px;
+}
+
+/* container */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    /* background-color: #6e090933; */
+}

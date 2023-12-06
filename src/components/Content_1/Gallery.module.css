@@ -1,0 +1,40 @@
+.galleryParent {
+    width: 450px;
+    height: 326px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.25px;
+    /* background-color: #ff0000; */
+    overflow: hidden;
+}
+
+.galleryCarousel {
+    width: 499px;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+    /* background-color: rgb(28, 52, 158); */
+    overflow-x: scroll;
+    padding-bottom: 19px;
+}
+
+/* Slider */
+.sliderImage {
+    display: flex;
+    width: 450px;
+    height: 252.75px;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.thumbnail {
+    display: flex;
+    width: 89.021px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
